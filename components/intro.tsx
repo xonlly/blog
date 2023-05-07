@@ -7,14 +7,7 @@ const Intro = () => {
         InnoMag.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Par{" "}
-        <a
-          href="https://www.linkedin.com/in/marvin-sant/"
-          className="underline hover:text-blue-600 duration-200 transition-colors"
-        >
-          Marvin SANT
-        </a>{" "}
-        un CTO passionné.
+        Embarquez pour un voyage au cœur de l'innovation.
       </h4>
     </section>
   );

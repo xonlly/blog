@@ -36,6 +36,10 @@ export default function Post({ post, morePosts, preview }: Props) {
               <Head>
                 <title>{title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
+                <meta
+                  name="description"
+                  content={`Innomag. le magazine en ligne dédié à l'innovation, vous invite à explorer les avancées technologiques et les idées révolutionnaires qui façonnent notre futur. Rejoignez-nous pour un voyage captivant à travers les dernières découvertes et tendances !`}
+                />
               </Head>
               <PostHeader
                 title={post.title}
