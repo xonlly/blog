@@ -11,16 +11,13 @@ const Footer = () => {
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
-              href="mailto:marvin@scriptor-artis.com"
+              href="mailto:marvin@innomag.fr"
               className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
-              Contactez-moi 🚀
+              Contactez-nous 🚀
             </a>
-            <a
-              href={`https://github.com/xonlly`}
-              className="mx-3 font-bold hover:underline"
-            >
-              Voir mon profil 👨🏻‍💻
+            <a href={`#soon`} className="mx-3 font-bold hover:underline">
+              En savoir plus sur nous
             </a>
           </div>
         </div>
