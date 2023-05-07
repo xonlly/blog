@@ -105,7 +105,7 @@ export default function Contact({ preview }) {
               <textarea
                 id="message"
                 name="message"
-                rows="4"
+                rows={4}
                 value={formData.message}
                 onChange={handleChange}
                 className="border rounded-md w-full p-2 text-gray-700 focus:outline-none focus:border-indigo-500"
