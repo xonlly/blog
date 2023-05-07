@@ -16,8 +16,8 @@ const Footer = () => {
             >
               Contactez-nous 🚀
             </a>
-            <a href={`#soon`} className="mx-3 font-bold hover:underline">
-              En savoir plus sur nous
+            <a href={`/origins`} className="mx-3 font-bold hover:underline">
+              Qui sommes-nous ?
             </a>
           </div>
         </div>
